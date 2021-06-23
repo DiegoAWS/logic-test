@@ -1,6 +1,7 @@
 const { describe, expect } = require("@jest/globals");
-const { ideaNumber1, ideaNumber2 } = require("./solution");
-const { CARD_SUITS, CARD_VALUES } = require("./constants");
+const ideaNumber1 = require("./ideaNumber1");
+const { ideaNumber2 } = require("./ideaNumber2");
+const { CARD_SUITS, CARD_VALUES } = require("../constants");
 
 const getRandomInt = (min, max) =>
   Math.floor(Math.random() * (max - min)) + min;

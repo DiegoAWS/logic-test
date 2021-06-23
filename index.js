@@ -1,6 +1,7 @@
 ;
 const { fetchData } = require("./fetchData");
-const { ideaNumber2, ideaNumber1 } = require("./solution");
+const ideaNumber1 = require("./solution/ideaNumber1");
+const { ideaNumber2 } = require("./solution/ideaNumber2");
 
 
 
