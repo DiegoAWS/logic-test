@@ -1,0 +1,28 @@
+{
+  "name": "problem2",
+  "version": "1.0.0",
+  "description": "In a Casino, all the decks of cards got mixed and some of the cards got lost. It is necessary to count how many full decks are in total.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "watch": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoAWS/logic-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoAWS/logic-test/issues"
+  },
+  "homepage": "https://github.com/DiegoAWS/logic-test#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
